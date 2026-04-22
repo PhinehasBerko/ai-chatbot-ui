@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Phinehas Berko">
+    <title>AI-ChatBot</title>
+    <link rel="stylesheet" href="../ui/index.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <i class="fa-brands fa-studiovinari">  FLY</i>
+
+
+            <div class="right-links">
+                <a href="#website">my website</a>
+                <i class="fa-solid fa-plus"></i>
+                <i class="fa-solid fa-share"></i>
+            </div>
+        </nav>
+    </header>
+    <main id="main-page">
+        <h2 id="welcome-text">Welcome Dub</h2>
+        <div ></div>
+
+        <div class="input-container">
+            <input type="text" id="input-text" />
+
+            <div class="input-select">
+
+                <label for="file-upload" class="icon-btn">
+                    <i class="fa-solid fa-plus"></i>
+                    <input type="file" id="file-upload" hidden />
+                </label>
+
+                <div class="select-wrapper">
+                    <i class="fa-regular fa-object-ungroup"></i>
+                    <select id="tools">
+                        <option id="create-image">Create image</option>
+                        <option id="canvas">Canvas</option>
+                        <option id="deep-research">Deep research</option>
+                        <option id="create-music">Create music</option>
+                        <option id="guided-learning">Guided learning</option>
+                    </select>
+                </div>
+
+                <div class="select-wrapper">
+                    <i class="fa-solid fa-microchip"></i>
+                    <select id="models">
+                        <option id="create-image">Fast</option>
+                        <option id="canvas">Thinking</option>
+                        <option id="deep-research">Pro</option>
+                        <option id="create-music">Google AI Plus</option>
+                    </select>
+                </div>
+                <button type='submit' class="send-btn">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </div>
+
+        </div>
+    </main>
+
+    <footer id="footer-text">AI-generated, for reference only</footer>
+</body>
+</html>
